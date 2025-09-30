@@ -28,7 +28,11 @@ class mediaQuery extends StatelessWidget {
 
     final usableHeight = screenHeight - appBarHeight - safeTop - safeBottom;
     return Scaffold(
-      appBar: appBar,
+      appBar: AppBar(
+        title: Text("MediaQuery",style: TextStyle(color: Colors.white),),
+        backgroundColor: Colors.teal,
+        centerTitle: true,
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
