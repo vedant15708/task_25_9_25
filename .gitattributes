@@ -8,3 +8,9 @@ web/* linguist-vendored
 
 # Optional: ignore build and generated files
 build/* linguist-vendored
+
+
+*.dart linguist-language=Dart
+*.cpp linguist-vendored
+*.h linguist-vendored
+
