@@ -1,4 +1,7 @@
+# Force Dart as primary language
 *.dart linguist-language=Dart
+
+# Ignore native/generated code
 *.cpp linguist-vendored
 *.h linguist-vendored
 *.cmake linguist-vendored
